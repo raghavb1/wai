@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8"/>
+        <script type="text/javascript" src="jquery-1.3.2.js"></script>
+        <title>Who Am I Welcomes you</title>
+    </head>
+    <body>
+        <div class="header"></div>
+        <div class="scroll"></div>
+        <ul id="navigation">
+            <li class="home"><a href="">Home    <img src="home.png" style="border:none" align="bottom"/></a></li>
+            <li class="about"><a href="">Change iPic</a></li>
+            <li class="search"><a href="">Themes & Schemes</a></li>
+            <li class="search"><a href="">Edit Profile</a></li>
+        </ul>
+
+
+        <script type="text/javascript">
+            $(function() {
+                $('#navigation a').stop().animate({'marginLeft':'-85px'},1900);
+
+                $('#navigation > li').hover(
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-2px'},400);
+                    },
+                    function () {
+                        $('a',$(this)).stop().animate({'marginLeft':'-85px'},900);
+                    }
+                );
+            });
+        </script>

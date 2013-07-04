@@ -1,0 +1,33 @@
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    top:0px;
+    left:0%;
+    list-style: none;
+    z-index:9999;
+	height:100%;
+}
+ul#navigation li {
+    width: 100px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+    width:100px;
+    height:40px;
+	background-image:url(../themes/4.jpg);
+    background-position:center center;
+    border: double;
+    -moz-border-radius:0px 10px 10px 0px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    /*-moz-box-shadow: 0px 4px 3px #000;
+    -webkit-box-shadow: 0px 4px 3px #000;
+    */
+    opacity: 0.82;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+

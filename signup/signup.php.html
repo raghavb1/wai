@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>signup</title>
+<script src="js/jquery-1.2.3.pack.js"></script>
+<script src="js/runonload.js"></script>
+<script src="js/tutorial.js"></script>
+</head>
+
+<body>
+<div id="contact_form">
+  <form name="contact" method="post" action="">
+    <fieldset>
+      <label for="fname" id="fname_label">First Name</label>
+      <input type="text" name="fname" id="fname" size="30" value="" class="text-input" />
+      <label class="error" for="fname" id="fname_error">This field is required.</label>
+      
+      <label for="lname" id="lname_label">Lname</label>
+      <input type="text" name="lname" id="lname" size="30" value="" class="text-input" />
+      <label class="error" for="lname" id="lname_error">This field is required.</label>
+      
+      <label for="email" id="email_label">Email</label>
+      <input type="text" name="email" id="email" size="30" value="" class="text-input" />
+      <label class="error" for="email" id="email_error">This field is required.</label>
+      
+      <label for="pass" id="pass_label">Password</label>
+      <input type="password" name="pass" id="pass" size="30" value="" class="text-input" />
+      <label class="error" for="pass" id="pass_error">This field is required.</label>
+      
+    	<br />
+      <input type="submit" name="submit" class="button" id="submit_btn" value="Send" />
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>

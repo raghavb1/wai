@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- Generated using Flame-Ware Solutions XML-2-XSD v2.0 at http://www.flame-ware.com/Products/XML-2-XSD/ -->
+<xs:schema id="causelist" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="causelist" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="date">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="causelisttodate" type="xs:string" minOccurs="0" />
+              <xs:element name="causelistfromdate" type="xs:string" minOccurs="0" />
+              <xs:element name="causelisttype" type="xs:string" minOccurs="0" />
+              <xs:element name="common_remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="end_remarks" type="xs:string" minOccurs="0" />
+              <xs:element name="court" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="courtno" type="xs:string" minOccurs="0" />
+                    <xs:element name="courtremarks" type="xs:string" minOccurs="0" />
+                    <xs:element name="judge1" type="xs:string" minOccurs="0" />
+                    <xs:element name="judge2" type="xs:string" minOccurs="0" />
+					 <xs:element name="judge3" type="xs:string" minOccurs="0" />
+					  <xs:element name="judge4" type="xs:string" minOccurs="0" />
+					  <xs:element name="judge5" type="xs:string" minOccurs="0" />
+                    <xs:element name="stage" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="stage_remarks" type="xs:string" minOccurs="0" />
+                          <xs:element name="stagename" type="xs:string" minOccurs="0" />
+                          <xs:element name="cases" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="casedetails" minOccurs="0" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="serial_no" type="xs:string" minOccurs="0" />
+                                      <xs:element name="mcasetype" type="xs:string" minOccurs="0" />
+                                      <xs:element name="mcaseno" type="xs:string" minOccurs="0" />
+                                      <xs:element name="mcaseyr" type="xs:string" minOccurs="0" />
+                                      <xs:element name="subname" type="xs:string" minOccurs="0" />
+                                      <xs:element name="pname" type="xs:string" minOccurs="0" />
+                                      <xs:element name="rname" type="xs:string" minOccurs="0" />
+                                      <xs:element name="mpadv" type="xs:string" minOccurs="0" />
+                                      <xs:element name="mradv" type="xs:string" minOccurs="0" />
+                                      <xs:element name="case_remarks" type="xs:string" minOccurs="0" />
+                                      <xs:element name="extra" minOccurs="0" maxOccurs="unbounded">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="excasetype" type="xs:string" minOccurs="0" />
+                                            <xs:element name="excaseno" type="xs:string" minOccurs="0" />
+                                            <xs:element name="excaseyr" type="xs:string" minOccurs="0" />
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

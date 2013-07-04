@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>jQuery autocompleter</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.autocomplete.js"></script>
+	<script type="text/javascript">
+
+$(function() {
+
+
+	$("#ac2").autocomplete({
+		url: 'search.php',
+		showResult: function(value, data) {
+			return '<span style="color:red">' + value + '</span>';
+		},
+		onItemSelect: function(item) {
+window.location.href=item.data;
+		},
+		maxItemsToShow: 5
+	});
+
+});
+
+	</script>
+	<link rel="stylesheet" type="text/css" href="jquery.autocomplete.css">
+</head>
+
+		<input type="text" id="ac2">
+
+
+</html>

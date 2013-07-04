@@ -1,0 +1,19 @@
+.boxy-wrapper { position: fixed; border:2px solid #CCC;
+	-moz-box-shadow: 0px 4px 15px 4px #060;
+-webkit-box-shadow:  0px 4px 15px 4px #060;
+box-shadow: 0px 4px 15px 4px #060;}
+.boxy-wrapper.fixed { position: fixed; top:0px }
+  
+  .boxy-modal-blackout { background-color: #000}
+	
+	.boxy-wrapper .title-bar { background-image:url(../themes/55.jpg); padding: 6px; position: relative; font-weight:bold;border-bottom:1px dotted #CCC; }
+	  .boxy-wrapper .title-bar.dragging { cursor: move; }
+	    .boxy-wrapper .title-bar h2 { font-size: 12px; color: #FFF; font-weight:bold; line-height: 1; margin: 0; padding: 0; }
+	    .boxy-wrapper .title-bar .close { color: #FFF; position: absolute; top: 6px; right: 6px; font-size: 90%; line-height: 1; }
+	
+	.boxy-inner { background-color:#FFF;padding: 0 }
+	.boxy-content { padding: 20px; }
+	
+
+    .boxy-wrapper .question { width: 250px; height: 30px; }
+    .boxy-wrapper .answers { text-align: right; }

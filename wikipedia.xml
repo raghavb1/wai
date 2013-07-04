@@ -1,0 +1,54 @@
+
+<?xml version="1.0"?>
+<SearchSuggestion version="2.0" xmlns="http://opensearch.org/searchsuggest2">
+  <Query xml:space="preserve">computer</Query>
+  <Section>
+  <Item>
+    <Text xml:space="preserve">Computer</Text>
+    <Description xml:space="preserve">A computer is a programmable machine that receives input, stores and manipulates data, and provides output in a useful format, they can be constructed out of almost anything. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Jacquard.loom.full.view.jpg/37px-Jacquard.loom.full.view.jpg" width="37" height="49" />
+    </Item>
+	<Item>
+    <Text xml:space="preserve">Computer software</Text>
+    <Description xml:space="preserve">Computer software, or just software, is the collection of computer programs and related data that provide the instructions telling a computer what to do and how to do it. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer_software</Url>
+    </Item><Item>
+    <Text xml:space="preserve">Computer science</Text>
+    <Description xml:space="preserve">Computer science deals with the theoretical foundations of information and computation, and with practical techniques for their implementation and application. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer_science</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Utah_teapot_simple_2.png/50px-Utah_teapot_simple_2.png" width="50" height="33" />
+    </Item><Item>
+    <Text xml:space="preserve">Keyboard (computing)</Text>
+    <Description xml:space="preserve">In computing, a keyboard is a typewriter keyboard, which uses an arrangement of buttons or keys, to act as mechanical levers or electronic switches. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Keyboard_(computing)</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Tastatur.jpg/50px-Tastatur.jpg" width="50" height="40" />
+    </Item><Item>
+    <Text xml:space="preserve">Personal computer game</Text>
+    <Description xml:space="preserve">A personal computer game (also known as a computer game or PC game) is a game played on a personal computer, rather than on a video game console or arcade machine. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Personal_computer_game</Url>
+    </Item><Item>
+    <Text xml:space="preserve">Video game</Text>
+    <Description xml:space="preserve">A video game is an electronic game that involves interaction with a user interface to generate visual feedback on a video device. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Video_game</Url>
+    </Item><Item>
+    <Text xml:space="preserve">Mouse (computing)</Text>
+    <Description xml:space="preserve">In computing, a mouse is a pointing device that functions by detecting two-dimensional motion relative to its supporting surface. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Mouse_(computing)</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Mouse_mechanism_diagram.svg/50px-Mouse_mechanism_diagram.svg.png" width="50" height="40" />
+    </Item><Item>
+    <Text xml:space="preserve">Computer programming</Text>
+    <Description xml:space="preserve">Computer programming (often shortened to programming or coding) is the process of designing, writing, testing, debugging / troubleshooting, and maintaining the source code of computer programs. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer_programming</Url>
+    </Item><Item>
+    <Text xml:space="preserve">Computer-generated imagery</Text>
+    <Description xml:space="preserve">Computer-generated imagery (CGI) is the application of the field of computer graphics or, more specifically, 3D computer graphics to special effects in art, films, television programs, commercials, simulators and simulation generally, and printed media. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer-generated_imagery</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/FractalLandscape.jpg/50px-FractalLandscape.jpg" width="50" height="33" />
+    </Item><Item>
+    <Text xml:space="preserve">Computer network</Text>
+    <Description xml:space="preserve">A computer network, often simply referred to as a network, is a collection of computers and devices interconnected by communications channels that facilitate communications among users and allows users to share resources. </Description>
+    <Url xml:space="preserve">http://en.wikipedia.org/wiki/Computer_network</Url>
+    <Image source="http://upload.wikimedia.org/wikipedia/commons/thumb/1/18/EPN_Frame-Relay_and_Dial-up_Network.svg/50px-EPN_Frame-Relay_and_Dial-up_Network.svg.png" width="50" height="35" />
+    </Item></Section>
+</SearchSuggestion>
